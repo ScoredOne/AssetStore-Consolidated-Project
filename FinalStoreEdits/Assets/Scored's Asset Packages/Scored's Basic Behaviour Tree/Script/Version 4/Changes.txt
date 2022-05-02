@@ -1,0 +1,6 @@
+Version 3 => Version 4 Changes:
+- Converted all IEnumerator and Coroutine into Tasks and await/async functionality.
+- Moved the execution of branch refresh from FixedUpdate to the first line of Nodes Execute task.
+- Performance and optimization changes.
+- Added message to leaf C "Child C Completed Successfully" for once the value exceeds 100.
+- Added SafetyDelay to leafs to specify Task Delay time between task runs.
